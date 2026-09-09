@@ -1091,7 +1091,11 @@ xpui_open() {
   rm -rf "${xpuiDir}" 2>/dev/null
   mkdir -p "${xpuiDir}"
   xpuiTempCreated='true'
-  unzip -qq "${xpuiSpa}" -d "${xpuiDir}" || {
+  unzip -qq "${xpuiSpa}" -d "${xpuiDir}" 2>/dev/null || {
+    rm -rf "${xpuiDir}" 2>/dev/null
+    mkdir -p "${xpuiDir}"
+    unzip -qq "${xpuiSpa}" -x / -d "${xpuiDir}"
+  } || {
     rm -rf "${xpuiDir}" 2>/dev/null
     echo -e "\n${red}Error:${clr} Failed to unpack xpui.spa. Reinstall client. Exiting...\n" >&2
     exit 1
