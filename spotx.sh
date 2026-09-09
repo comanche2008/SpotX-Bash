@@ -1232,7 +1232,7 @@ hideDLMenu=' :is(.pzkhLqffqF_4hucrVVQA, .egE6UQjF_UUoCzvMxREj, .Y98_oiegQgSpY_o7
 hideDLQual=' :is(.weV_qxFz4gF5sPotO10y, .BMtRRwqaJD_95vJFMFD0, .eguwzH_QWTBXry7hiNj3, .qV_CxbowaNkMarye, .Z6yfNoSJ6OjiEBGI5Osr):has([for="desktop.settings.downloadQuality"]) {display: none}'
 hideSubfeed=' .cj6vRk3nFAi80HSVqX91, .c8Z2jJUocJTdV9g741cp, .x_HLN829yDsvJDgl {display:none}'
 hideVeryHigh=' #desktop\.settings\.streamingQuality>option:nth-child(5) {display:none}'
-lyricsBackgroundNew=' .FUYNhisXTCmbzt9IDxnT,\n .tr8V5eHsUaIkOYVw7eSG,\n .hW9km7ku6_iggdWDR_Lg,\n .lofIAg8Ixko3mfBrbfej,\n .bbJIIopLxggQmv5x,\n .Li269NgzkU2gI4KOP9sM,\n .I2WIloMMjsBeMaIS8H3v,\n .McI3hD7aCfpq015LJa6X,\n .gpDSOimnzH4zTJmE7UR5 {\n \t--lyrics-color-active: #C8C8C8 !important;\n \t--lyrics-color-inactive: #575757 !important;\n \t--lyrics-color-passed: #575757 !important;\n \t--lyrics-color-background: #121212 !important;\n }'
+lyricsBackgroundNew=' .FUYNhisXTCmbzt9IDxnT,\n .tr8V5eHsUaIkOYVw7eSG,\n .hW9km7ku6_iggdWDR_Lg,\n .lofIAg8Ixko3mfBrbfej,\n .bbJIIopLxggQmv5x,\n .Li269NgzkU2gI4KOP9sM,\n .I2WIloMMjsBeMaIS8H3v,\n .McI3hD7aCfpq015LJa6X,\n .gpDSOimnzH4zTJmE7UR5,\n .dh4zyndPBN0gul_w,\n .zboE1ICtt8SJrJQEVHTf {\n \t--lyrics-color-active: #C8C8C8 !important;\n \t--lyrics-color-inactive: #575757 !important;\n \t--lyrics-color-passed: #575757 !important;\n \t--lyrics-color-background: #121212 !important;\n }'
 updatesEx=(
 'blockUpdates&\x64(?=\x65\x73\x6B\x74\x6F\x70\x2D\x75\x70)&\x00&g&appBinary&1.1.70.610&9.9.9.9&macOS'
 )
